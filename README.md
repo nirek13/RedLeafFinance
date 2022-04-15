@@ -13,5 +13,5 @@ This was my attempt at creating a finance website it allows users to
 - login
 - view portfolio
 - view your history
-- 
+
 This was a project I made when I was 10 so it has lots of glitches :)
