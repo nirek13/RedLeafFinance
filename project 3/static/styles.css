@@ -1,0 +1,177 @@
+nav .navbar-brand
+{
+    /* size for brand */
+    font-size: x-large;
+    background-color: crimson;
+    color: white;
+    border-radius: 12px;
+    display: inline-block;
+    padding: 8px;
+}
+
+/* Colors for brand */
+nav .navbar-brand .white
+{
+    color: white;
+}
+nav .navbar-brand .red
+{
+    color: red;
+}
+nav .navbar-brand .yellow
+{
+    color: #f5b82e;
+}
+nav .navbar-brand .green
+{
+    color: #2e944b;
+}
+
+main .form-control
+{
+    /* Center form controls */
+    display: inline-block;
+
+    /* Override Bootstrap's 100% width for form controls */
+    width: auto;
+
+    height: calc(2.25rem + 2px);
+}
+
+main
+{
+    /* Scroll horizontally as needed */
+    overflow-x: auto;
+
+    /* Center contents */
+    text-align: center;
+
+}
+
+main img
+{
+    /* Constrain images on small screens */
+    max-width: 100%;
+}
+
+.btn {
+  border: 2px solid black;
+  background-color: white;
+  color: black;
+  padding: 8px 28px;
+  font-size: 16px;
+  cursor: pointer;
+      transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    transition-property: color, background-color, border-color, box-shadow;
+    transition-duration: 0.15s, 0.15s, 0.15s, 0.15s;
+    transition-timing-function: ease-in-out, ease-in-out, ease-in-out, ease-in-out;
+    transition-delay: 0s, 0s, 0s, 0s;
+
+  padding: 12px 30px
+
+}
+
+/* Green */
+.sell {
+  border-color: red;
+  color: white;
+  background:red;
+}
+
+
+/* Green */
+.buy {
+  border-color: green;
+  color:white;
+  background:green;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    transition-property: color, background-color, border-color, box-shadow;
+    transition-duration: 0.15s, 0.15s, 0.15s, 0.15s;
+    transition-timing-function: ease-in-out, ease-in-out, ease-in-out, ease-in-out;
+    transition-delay: 0s, 0s, 0s, 0s;
+}
+
+.mrk {
+  background-color: red;
+  color: red;
+}
+nav .option
+{
+    color:red;
+}
+
+.tablrtfe {
+    display: table;
+    border-spacing: 10px;
+    border-color: black;
+}
+.h {
+    border-color:grey;
+    }
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 2px solid black;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #E0E0E0;
+}
+
+.btnsmall {
+  border: 2px solid black;
+  color: white;
+  padding: 4px 14px;
+  font-size: 12px;
+  background-color: green;
+  cursor: pointer;
+      transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    transition-property: color, background-color, border-color, box-shadow;
+    transition-duration: 0.15s, 0.15s, 0.15s, 0.15s;
+    transition-timing-function: ease-in-out, ease-in-out, ease-in-out, ease-in-out;
+    transition-delay: 0s, 0s, 0s, 0s;
+
+}
+
+.titleheader
+{
+
+    font-size: 600%;
+    background-color: crimson;
+    color: white;
+    border-radius: 30px;
+    display: inline-block;
+    padding: 8px;
+}
+
+.news{
+    background-image: url('scotia.jpg');
+    background-size: 1500px 1000px;
+}
+
+.input {
+  width: 100%;
+  padding: 12px 8px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 2px solid black;
+  border-radius: 8px;
+}
+
+.submit{
+  width: 505%;
+  padding: 3px 10px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 2px solid black;
+  border-radius: 4px;
+  background-color:lightgrey;
+
+}

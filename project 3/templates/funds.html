@@ -1,0 +1,30 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Add Funds
+{% endblock %}
+
+{% block main %}
+    <form action="/AddFunds" method="post">
+        <fieldset>
+                <div class = form-group>
+                <select name="account type" class = "form-control"> 
+                        <option disabled selected value>Account Type</option>
+                        <option >Credit</option>
+                        <option>Debit</option>
+                        <option>Cash</option>
+                        
+                </select>
+            </div>
+            
+            <div class="form-group">
+                <input autocomplete="off" autofocus class="form-control" name="amount" placeholder="Amount" type="number" min = "1">
+            </div>
+                <div class="form-group">
+            
+            <div class="form-group">
+                <button class="btn btn-primary" type="submit">Transfer</button>
+            </div>
+        </fieldset>
+    </form>
+{% endblock %}

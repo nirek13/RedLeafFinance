@@ -1,0 +1,28 @@
+
+
+{% extends "layout.html" %}
+
+{% block title %}
+    Stock Quote
+{% endblock %}
+
+{% block main %}
+    <div class="container">
+        <table class="table">
+            <tr>
+                <th>Stock Symbol</th>
+                <th>Share Price</th>
+                <th>Year To Date High</th>
+                <th>Year To Date Growth</th>
+                <th>Change In Value</th>
+            </tr>
+            <tr>
+                <td> {{ quote['Symbol'] }}</td>
+                <td>$ {{ quote['Price']}}</td>
+                <td>{{ quote['Year To Date High'] }}</td>
+                <td>{{ quote['Change In Value'] }}</td>
+                <td>{{ quote['Year To Date Change'] }}</td>
+            </tr>
+        </table>
+    </div>
+{% endblock %}

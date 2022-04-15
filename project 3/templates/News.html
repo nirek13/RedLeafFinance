@@ -1,0 +1,43 @@
+
+   
+{% extends "layout.html" %}
+
+{% block title %}
+    News
+{% endblock %}
+
+{% block main %}
+<!DOCTYPE html>
+
+<!-- Demonstrates action -->
+
+<html lang="en">
+    <head>
+        <title>search</title>
+    </head>
+    <body class = "news">
+        <br>
+        <br>
+        <br>
+        <h1 class = "titleheader" >Red Leaf News</h1>
+        <br>
+        <br>
+        <br>
+        <div>
+        <form action="https://news.google.com/search" method="get" class = "newssearchbar">
+            <input class = "input" name="q" type="search" placeholder = "News On Your Stocks" autofocus autocomplete = "off">
+           <br>
+           <br>
+           
+           <input class = "btn btn-primary" type="submit" value="Search">
+           </form>
+        <br>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+    </body>
+</html>
+{% endblock %}

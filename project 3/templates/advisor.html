@@ -1,0 +1,41 @@
+
+{% extends "layout.html" %}
+
+{% block title %}
+    My Portfolio
+{% endblock %}
+
+{% block main %}
+    <div class="container">
+        <table class="table">
+            <tr>
+                <th>Stock Symbol</th>
+                <th>Qty. of Shares</th>
+                <th>Share Price When Bought</th>
+                <th>Share Price Now</th>
+                <th>Profits Made Per Stock</th>
+                <th> Share Price Trajectory</th>
+            </tr>
+            {%set i = -1 %}
+            {% for stock in  stocks %}
+
+
+
+                <tr>
+                    <td> {{ stock['stock'].upper() }} </td>
+
+                    <td> {{ stock['quantity'] }} </td>
+
+                    <td> {{ stock['price'] | usd }} </td>
+
+                    <td> {{ price[i] | usd}}</td>
+
+                    <td> {{ profit[i] | float | usd}} </td>
+
+                    <td> {{ outlook[i] }} </td>
+                </tr>
+                
+            {% endfor %}
+        </table>
+    </div>
+{% endblock %}
